@@ -1,0 +1,138 @@
+{"intents": [
+  {"tag": "Welcoming",
+  "patterns": ["hello", "hey", "hi", "how are you", "what's up"],
+  "responses": ["Hey :-)",
+  "Hello, thanks for visiting",
+  "Hi there, what can I do for you?",
+  "Hi there, how can I help?"
+     ]
+  },
+
+  {
+    "tag": "goodbye",
+    "patterns": ["Bye", "See you later", "Goodbye"],
+    "responses": [
+      "See you later, thanks for visiting",
+      "Have a nice day",
+      "Bye! Come back again soon."
+    ]
+  },
+
+  {
+    "tag": "thanks",
+    "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+    "responses": ["Happy to help!", "Any time!", "My pleasure"]
+  },
+
+  {
+    "tag": "items",
+    "patterns": [
+      "Which items do you have?",
+      "What kinds of items are there?",
+      "What do you sell?"
+    ],
+    "responses": [
+      "We sell backery foods "
+
+    ]
+  },
+
+  {
+    "tag": "payments",
+    "patterns": [
+      "Do you take credit cards?",
+      "Do you accept Mastercard?",
+      "Can I pay with Paypal?",
+      "Are you cash only?"
+    ],
+    "responses": [
+      "We accept VISA, Mastercard and Paypal",
+      "We accept most major credit cards, and Paypal"
+    ]
+  },
+  {
+    "tag": "delivery",
+    "patterns": [
+      "How long does delivery take?",
+      "How long does shipping take?",
+      "When do I get my delivery?"
+    ],
+    "responses": [
+      "Delivery takes 2-4 days",
+      "Shipping takes 2-4 days"
+    ]
+  },
+
+
+
+  {"tag": "order.complete",
+  "patterns": ["Nope","That's all I needed","Done ordering it","That's it"],
+  "responses": ["Okay .Thank you for ordering"]
+  },
+  {
+    "tag": "view_menu",
+    "patterns": ["view menu", "show me the menu", "menu please", "what's on the menu"],
+    "responses": [
+      " Menu \n Pasta"
+
+    ]
+  },
+  {
+    "tag": "product_info",
+    "patterns": ["Tell me about", "Tell me about Food", "Foods",""],
+    "responses": ["Sure"],
+    "context_set": "product_info"
+  },
+
+  {"tag": "track.order",
+  "patterns": ["check the status of my order","track order","track existing order","my order ID is","I want to track my order "],
+  "responses": ["get order by ID"]
+  },
+  {
+    "tag": "product.recommendation",
+    "patterns": [
+      "Recommend a popular dish.",
+      "What's the chef's special?",
+      "Suggest something delicious.",
+      "I'm looking for a unique dish.",
+      "Give me a recommendation."
+    ],
+    "responses": [
+      "Certainly! Here are some popular dishes you might enjoy:",
+      "- Spaghetti Carbonara",
+      "- BBQ Ribs",
+      "- Green Tea Sushi Roll",
+      "- Chocolate Fondue",
+      "These are some of our top picks. Is there anything else I can assist you with?"
+    ]
+  },
+    {
+    "tag": "general.query",
+    "patterns": [
+      "What are your opening hours?",
+      "How does the delivery process work?",
+      "Do you offer any discounts?",
+      "Can I change my delivery address?",
+      "What payment methods do you accept?",
+      "Is there a minimum order amount?",
+      "Are there any vegetarian options?",
+      "How can I contact customer support?",
+      "Tell me about your loyalty program.",
+      "Do you have a mobile app?"
+    ],
+    "responses": [
+      "Our opening hours are from [Opening Hours].",
+      "The delivery process is simple! We deliver to your provided address within 30 to 60 minutes.",
+      "Yes, we offer various discounts and promotions. Please check our 'Offers' section for the latest deals.",
+      "Yes, you can change your delivery address by going to your cart and updating the address before checkout.",
+      "We accept the following payment methods: [Credit/Debit cards, Cash on Delivery].",
+      "There is a minimum order amount of [5 items].",
+      "Certainly! We have a wide range of delicious vegetarian options. Check our menu for details.",
+      "You can contact our customer support team at [Contact number - 0112678 980/ Email - foodDelivery@gmail.com].",
+      "Our loyalty program rewards you with points for every purchase. You can redeem them for discounts on future orders.",
+      "Yes, we have a mobile app available for both Android and iOS. You can download it from [App Store Link]."
+    ]
+  }
+
+
+]}
